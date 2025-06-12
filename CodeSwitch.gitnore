@@ -1,0 +1,33 @@
+
+# === Python ===
+__pycache__/
+*.py[cod]
+env/
+venv/
+*.env
+
+# === C ===
+*.o
+*.obj
+*.exe
+*.out
+*.log
+
+# === C# / .NET ===
+bin/
+obj/
+*.user
+*.suo
+*.dll
+*.exe
+*.pdb
+
+# === Lua ===
+*.luac
+
+# === General ===
+.DS_Store
+Thumbs.db
+.vscode/
+*.tmp
+*.bak
