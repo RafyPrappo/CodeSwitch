@@ -57,7 +57,7 @@ class Program
         sentence_ = sentence_.Replace("thirsty", "angry"); //Replaces the first substring with the second string
         Console.WriteLine(sentence_);
 
-        string substrin = sentence_.Substring(1,3); // Cuts a String. Equivalent to python's string.split(start,end) but the ending in inclusive. Meaning it will also take the ending index.
+        string substrin = sentence_.Substring(1,3); // Cuts a String. Equivalent to python's string[start:end] but the ending in inclusive. Meaning it will also take the ending index.
         Console.WriteLine(substrin);
 
 
